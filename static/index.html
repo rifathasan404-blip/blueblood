@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b1b4d">
+<title>BlueBlood</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%231f47d6'/%3E%3Cpath d='M16 6c5 6.5 7.5 10 7.5 13.2A7.5 7.5 0 0 1 16 26.5a7.5 7.5 0 0 1-7.5-7.3C8.500 16 11 12.500 16 6z' fill='white'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/style.css">
+<script src="/theme.js"></script>
+</head>
+<body>
+<div class="app">
+  <aside class="rail" id="rail" aria-label="Main"></aside>
+  <div class="main">
+    <header class="top" id="top"></header>
+    <main id="view">
+      <div class="skeleton"><i></i><i></i><i></i><i></i></div>
+    </main>
+  </div>
+  <nav class="dock" id="dock" aria-label="Main"></nav>
+</div>
+<dialog id="sheet" aria-labelledby="sheet-title"></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script type="module" src="/app.js"></script>
+</body>
+</html>

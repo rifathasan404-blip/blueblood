@@ -1,0 +1,5 @@
+*.db
+*.db-journal
+mail.json
+DEMO_ACCOUNTS.md
+__pycache__/
